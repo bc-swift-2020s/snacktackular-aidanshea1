@@ -100,6 +100,7 @@ class SpotDetailViewController: UIViewController {
     }
     
     @IBAction func reviewButtonPressed(_ sender: UIButton) {
+        shouldPerformSegue(withIdentifier: "AddReview", sender: nil)
     }
     
     @IBAction func saveButtonPressed(_ sender: UIBarButtonItem) {
