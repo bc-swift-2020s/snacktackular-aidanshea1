@@ -12,6 +12,7 @@
 		183822FE244E12F2003015B8 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183822FD244E12F2003015B8 /* UIView+addBorder.swift */; };
 		18382300244E200E003015B8 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183822FF244E200E003015B8 /* ReviewTableViewController.swift */; };
 		18382302244E2B7E003015B8 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382301244E2B7E003015B8 /* Review.swift */; };
+		18382304244E3565003015B8 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382303244E3565003015B8 /* Reviews.swift */; };
 		186E48492443736100C47A03 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E48482443736100C47A03 /* Spot.swift */; };
 		186E484B244374C300C47A03 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E484A244374C300C47A03 /* Spots.swift */; };
 		3E0F960A20659D9000AE450D /* SpotsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */; };
@@ -34,6 +35,7 @@
 		183822FD244E12F2003015B8 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
 		183822FF244E200E003015B8 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		18382301244E2B7E003015B8 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		18382303244E3565003015B8 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		186E48482443736100C47A03 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		186E484A244374C300C47A03 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsTableViewCell.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				3E8390DF206597F600512DEA /* AppDelegate.swift */,
 				186E484A244374C300C47A03 /* Spots.swift */,
 				186E48482443736100C47A03 /* Spot.swift */,
+				18382303244E3565003015B8 /* Reviews.swift */,
 				18382301244E2B7E003015B8 /* Review.swift */,
 				3E8390E1206597F600512DEA /* SpotsListViewController.swift */,
 				3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */,
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18382304244E3565003015B8 /* Reviews.swift in Sources */,
 				3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */,
 				3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */,
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
